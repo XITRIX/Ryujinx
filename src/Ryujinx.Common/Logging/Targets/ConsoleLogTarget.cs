@@ -28,14 +28,14 @@ namespace Ryujinx.Common.Logging
 
         public void Log(object sender, LogEventArgs args)
         {
-            Console.ForegroundColor = GetLogColor(args.Level);
+            //Console.ForegroundColor = GetLogColor(args.Level);
             Console.WriteLine(_formatter.Format(args));
-            Console.ResetColor();
+            //Console.ResetColor();
         }
 
         public void Dispose()
         {
-            Console.ResetColor();
+            //Console.ResetColor();
         }
     }
 }

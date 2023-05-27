@@ -9,7 +9,7 @@ namespace Ryujinx.Common
     {
         private const string FlatHubChannelOwner = "flathub";
 
-        public static string BuildVersion = "%%RYUJINX_BUILD_VERSION%%";
+        public static string BuildVersion = "1.0.0";
         public static string BuildGitHash = "%%RYUJINX_BUILD_GIT_HASH%%";
         public static string ReleaseChannelName = "%%RYUJINX_TARGET_RELEASE_CHANNEL_NAME%%";
         public static string ReleaseChannelOwner = "%%RYUJINX_TARGET_RELEASE_CHANNEL_OWNER%%";
